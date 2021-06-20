@@ -11,6 +11,24 @@
 .turny {
 	position: absolute;
 }
+
+@keyframes shimmy {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(20px, 50px);
+  }
+}
+
+@keyframes shimmy1 {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(200px, 50px);
+  }
+}
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
